@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+.dress {
+    position: relative;
+    margin: 20px auto;
+    width: 200px;
+    height: 400px;
+}
+
+.sleeve {
+    position: absolute;
+    width: 60px;
+    height: 100px;
+    background-color: #ccc;
+}
+
+.left {
+    left: -60px;
+    top: 50px;
+}
+
+.right {
+    right: -60px;
+    top: 50px;
+}
+
+.top {
+    width: 100%;
+    height: 100px;
+    background-color: #ccc;
+    position: absolute;
+    top: 0;
+}
+
+.bottom {
+    width: 100%;
+    height: 200px;
+    background-color: #ccc;
+    position: absolute;
+    bottom: 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px; /* Add some margin for spacing */
+}
